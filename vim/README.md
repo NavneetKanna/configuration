@@ -9,7 +9,7 @@ nmap <leader>cc <leader>c_
 vmap <leader>c <Plug>OSCYankVisual
 ```
 
-Install `vim-plug` from the (repo)[https://github.com/junegunn/vim-plug]. Install `nodejs` and `npm`.
+Install `vim-plug` from the (repo)[https://github.com/junegunn/vim-plug]. Install `nodejs` and `npm`. And finally `ripgrep`.
 
 After opening vim, run
 
