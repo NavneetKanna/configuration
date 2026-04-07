@@ -9,6 +9,8 @@ nmap <leader>cc <leader>c_
 vmap <leader>c <Plug>OSCYankVisual
 ```
 
+Install `vim-plug` from the (repo)[https://github.com/junegunn/vim-plug]. Install `nodejs` and `npm`.
+
 After opening vim, run
 
 ```bash
@@ -25,7 +27,7 @@ Then open the config using
 :CocConfig
 ```
 
-And add this
+And add and save this
 
 ```json
 {
