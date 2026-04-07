@@ -9,7 +9,7 @@ nmap <leader>cc <leader>c_
 vmap <leader>c <Plug>OSCYankVisual
 ```
 
-Install `vim-plug` from the (repo)[https://github.com/junegunn/vim-plug]. Install `nodejs` and `npm`. And finally `ripgrep`.
+Install `vim-plug` from the [repo](https://github.com/junegunn/vim-plug). Install `nodejs` and `npm`. And finally `ripgrep`.
 
 After opening vim, run
 
@@ -33,4 +33,10 @@ And add and save this
 {
     "inlayHint.enable": false
 }
+```
+
+If for some reason the theme is not rendering completely (showing black color in spaces) then add this line
+
+```bash
+set t_ut=
 ```
